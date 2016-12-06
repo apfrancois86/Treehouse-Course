@@ -28,6 +28,11 @@ body {
 p {
   line-height: 27px; }
 
+.teacher img {
+  float: right;
+  width: 65px;
+  border-radius: 100%; }
+
 .course-content a {
   padding: 10px 15px;
   background-color: #edeff0;
@@ -78,6 +83,16 @@ body {
 
 .col-left h1, .col-right h1 {
   margin-bottom: 15px; }
+.col-left h3, .col-right h3 {
+  font-size: 1em; }
+.col-left p, .col-right p {
+  color: #7b8b8e; }
+.col-left .stronger, .col-right .stronger {
+  color: #384047;
+  font-weight: bold; }
+
+.star {
+  color: #e6e8e8; }
 
 .col-left {
   padding-top: 30px;
@@ -131,8 +146,36 @@ body {
 .download {
   margin-top: 20px; }
 
-header {
+.well {
+  background-color: #f9fafa;
   width: 100%;
+  padding: 20px; }
+  .well-title {
+    float: left; }
+  .well img {
+    float: left; }
+  .well-right {
+    float: right;
+    margin-top: 8px; }
+    .well-right a {
+      border-radius: 25px;
+      padding: 10px;
+      border: 2px solid #edeff0;
+      background-color: white;
+      text-decoration: none;
+      font-size: 0.9em;
+      font-weight: bold;
+      background-color: transparent; }
+  .well:after {
+    display: table;
+    content: "";
+    clear: both; }
+
+header {
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+  max-width: 1200px;
   height: 75px;
   background-color: #edeff0;
   padding: 15px 30px; }

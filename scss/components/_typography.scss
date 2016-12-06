@@ -42,4 +42,18 @@ body {
   h1 {
     margin-bottom: 15px;
   }
+  h3 {
+    font-size: 1em;
+  }
+  p {
+    color: $dark-grey;
+  }
+  .stronger {
+    color: $black;
+    font-weight: bold;
+  }
+}
+
+.star {
+  color: $medium-grey
 }
