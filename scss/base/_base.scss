@@ -1,3 +1,25 @@
-body, * {
+* {
   @include reset;
+}
+
+body {
+  background-color: $light-grey;
+}
+
+.buttons-bar {
+  @include center;
+  width: 95%;
+  height: 75px;
+  padding-top: 17px;
+  border-bottom: 2px solid $light-grey;
+  a {
+    @include round;
+    float: left;
+    &:last-of-type {
+      float: right;
+    }
+  }
+}
+p {
+  line-height: 27px;
 }

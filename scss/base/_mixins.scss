@@ -3,6 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
-@mixin float($direction) {
-  float: $direction;
+
+@mixin clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+@mixin center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin button($bg-color, $color) {
+  padding: 10px 15px;
+  background-color: $bg-color;
+  color: $color;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+@mixin round {
+  border-radius: 25px;
+  padding: 10px;
+  border: 2px solid $light-grey;
+  background-color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+@mixin content-padding {
+  padding-top: 30px;
 }

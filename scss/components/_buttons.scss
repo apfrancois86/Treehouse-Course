@@ -1,0 +1,15 @@
+.course-content{
+  a {
+    @include button($light-grey, $light-blue);
+  }
+}
+.col-right {
+  a {
+    @include button($white, $light-blue);
+    width: 100%;
+    display: block;
+    border: 2px solid $dark-blue;
+    text-align: center;
+    margin-top: 20px; 
+  }
+}

@@ -6,3 +6,40 @@ body {
   color: $dark-grey;
   font-size: 1.2em;
 }
+
+.course-bar {
+  h5 {
+    color: $white;
+    font-size: 0.95em;
+  }
+}
+.course-content {
+  h2 {
+    color: $white;
+    font-size: 2em;
+
+  }
+  h3 {
+    color: lighten($light-blue, 25%);
+    font-size: 1.1em;
+
+  }
+}
+
+.buttons-bar {
+  a {
+    color: $dark-grey;
+    &:first-of-type {
+      color: $dark-blue;
+    }
+    &:last-of-type {
+      color: $medium-grey;
+    }
+  }
+}
+
+.col-left, .col-right {
+  h1 {
+    margin-bottom: 15px;
+  }
+}
