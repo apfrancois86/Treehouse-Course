@@ -151,7 +151,8 @@ body {
   width: 100%;
   padding: 20px; }
   .well-title {
-    float: left; }
+    float: left;
+    margin-left: 15px; }
   .well img {
     float: left; }
   .well-right {
@@ -170,6 +171,18 @@ body {
     display: table;
     content: "";
     clear: both; }
+
+.content-list {
+  height: 120px;
+  width: 100%; }
+  .content-list .percent-meter {
+    float: left;
+    width: 15%;
+    height: 100%; }
+  .content-list .content-list-section {
+    float: left;
+    width: 84%;
+    height: 100%; }
 
 header {
   margin-right: auto;

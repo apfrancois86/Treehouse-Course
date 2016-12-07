@@ -47,9 +47,11 @@
   padding: 20px;
   &-title {
     float: left;
+    margin-left: 15px;
   }
   img {
     float: left;
+
   }
   &-right {
     float: right;
@@ -61,5 +63,20 @@
   }
   &:after {
     @include clearfix;
+  }
+}
+.content-list {
+  height: 120px;
+  width:100%;
+  .percent-meter {
+    float: left;
+    width: 15%;
+    height: 100%;
+
+  }
+  .content-list-section {
+    float: left;
+    width: 84%;
+    height: 100%;
   }
 }
